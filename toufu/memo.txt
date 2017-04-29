@@ -1,0 +1,231 @@
+
+# test_data = test_data.assign(temkino = 'NA')
+# for i in range(1, len(test_data)):
+# 	test_data['temkino'][i] = test_data['temperature'][i - 1]
+# test_data['temkino'][0] = test_data['temperature'][0]
+# test_data = test_data.drop(['temperature'], axis = 1)
+
+tem only, 241
+A Training error  684.394870951
+A Validation error  1017.98373177
+B Training error  702.401952048
+B Validation error  420.444683041
+C Training error  584.389292086
+C Validation error  401.737351866
+D Training error  699.362086125
+D Validation error  1162.7610487
+E Training error  446.659805301
+E Validation error  783.714541586
+
+all
+795.29372
+663.90665
+517.34291
+812.89067
+763.11501
+
+
++ weekflag, 241
+A Training error  667.444458019
+A Validation error  1015.54032365
+B Training error  678.484758564
+B Validation error  396.285287507
+C Training error  572.388966759
+C Validation error  411.688094825
+D Training error  667.826984842
+D Validation error  1164.63075945
+E Training error  431.329075873
+E Validation error  778.373474353
+
+241
+980.32573
+661.37544
+478.04832
+967.27384
+713.31493
+
+all
+A Training error  743.147299244
+A Validation error  743.147299244
+B Training error  596.631204324
+B Validation error  596.631204324
+C Training error  519.397551882
+C Validation error  519.397551882
+D Training error  803.677617899
+D Validation error  803.677617899
+E Training error  526.371857935
+E Validation error  526.371857935
+
+all
+788.63878
+637.52155
+494.06229
+795.22546
+739.06899
+
+all preprocessing
+A Training error  675.8263978
+A Validation error  675.8263978
+B Training error  586.042160565
+B Validation error  586.042160565
+C Training error  519.397551882
+C Validation error  519.397551882
+D Training error  799.545972071
+D Validation error  799.545972071
+E Training error  525.260283659
+E Validation error  525.260283659
+
+all preprocessing
+772.15266
+638.48560
+494.06229
+794.40035
+740.86554
+
+all allcolumn
+A Training error  408.035650681
+A Validation error  408.035650681
+B Training error  543.868110789
+B Validation error  543.868110789
+C Training error  506.42200432
+C Validation error  506.42200432
+D Training error  729.043443693
+D Validation error  729.043443693
+E Training error  427.909419313
+E Validation error  427.909419313
+
+all allcolumn
+612.44333
+716.01018
+561.49703
+757.23302
+731.65763
+
+241 allcolumn a d e
+A Training error  421.452987507
+A Validation error  343.334589806
+B Training error  653.486057223
+B Validation error  404.732052569
+C Training error  572.29309562
+C Validation error  412.115077531
+D Training error  597.869897013
+D Validation error  1194.74982092
+E Training error  406.895762892
+E Validation error  525.149875959
+
+241 allcolumn a d e
+607.55996
+661.76394
+481.44053
+958.05880
+725.99707
+
+kumiawase
+A Training error  421.452987507
+A Validation error  343.334589806
+B Training error  653.486057223
+B Validation error  404.732052569
+C Training error  519.393021676
+C Validation error  519.393021676
+D Training error  729.043443693
+D Validation error  729.043443693
+E Training error  431.365914572
+E Validation error  773.871014053
+
+kumiawase
+607.55996
+661.76394
+494.08369
+757.23302
+714.97514
+
+-noise e=chichibu
+A Training error  396.286023824
+A Validation error  302.470877875
+A CV error  469.077664234
+B Training error  586.023860007
+B Validation error  586.023860007
+B CV error  531.583722747
+C Training error  518.662536067
+C Validation error  518.662536067
+C CV error  455.870179004
+D Training error  590.295674832
+D Validation error  1211.59305872
+D CV error  536.853091947
+E Training error  412.284540438
+E Validation error  706.600615105
+E CV error  350.81650109
+
+-noise kumiawase best
+593.64433
+641.25848
+481.23307
+755.73127
+691.82856
+
+1.05
+607.51635
+654.41578
+467.56893
+805.01408
+707.18364
+
+/30
+0 Training error  395.568607052
+0 Validation error  307.355431291
+0 CV error  470.826274031
+1 Training error  574.963833873
+1 Validation error  574.963833873
+1 CV error  546.613796193
+2 Training error  572.086991153
+2 Validation error  402.297202293
+2 CV error  521.641167833
+3 Training error  723.908667253
+3 Validation error  723.908667253
+3 CV error  734.326128809
+4 Training error  420.408184361
+4 Validation error  684.696465675
+4 CV error  357.476491908
+
+/30
+593.30131
+639.92504
+481.23307
+753.27299
+691.21830
+
+column 1,2
+1 Training error  470.75705784
+1 Validation error  470.75705784
+1 CV error  432.062446869
+2 Training error  449.592724396
+2 Validation error  278.559027632
+2 CV error  386.280782382
+
+column 1,2
+667.08560
+463.52872
+
+outlier1.1
+0 Training error  395.568607052
+0 Validation error  307.355431291
+0 CV error  470.826274031
+1 Training error  562.559883436
+1 Validation error  562.559883436
+1 CV error  534.562293226
+2 Training error  449.592724396
+2 Validation error  278.559027632
+2 CV error  386.280782382
+3 Training error  715.141790555
+3 Validation error  715.141790555
+3 CV error  725.035940987
+4 Training error  410.648184129
+4 Validation error  674.402485172
+4 CV error  351.505384233
+
+outlier1.1
+593.30131
+639.34034
+463.52872
+749.23894
+694.75546

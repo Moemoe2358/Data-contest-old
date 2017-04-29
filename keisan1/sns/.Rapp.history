@@ -1,0 +1,4 @@
+setwd("/Users/ryuhouketsu/Desktop/kankou/sns")
+read.csv("sns_test.csv")
+a = read.csv("sns_test.csv")
+View(a)

@@ -1,0 +1,146 @@
+3+3
+x=c(11,9,15,15,4,6,12,8)
+y=c(8.2,8.8,7.6,8.4,8.3,7.7,7.4,7.6)
+a1<-lm(x~y)
+a1
+summary(a1)
+a1[1]
+coefficients(a1)[1]
+coefficients(a1)[2]
+plot(x~y,pch=19)#
+lines(a1,coefficients(b2)[1]*s^coefficients(b2)[2],lty=1,col="blue")
+plot(x~y,pch=19)#
+lines(a1,lty=1,col="blue")
+plot(x~y,pch=19)#
+abline(a1)
+plot(y~x,pch=19)#
+abline(a1)
+coefficients(a1)[1]
+plot(y~x,pch=19)#
+abline(a1)
+a
+x
+x*x
+sum(x*x)
+sum(x*y)
+(638.4-5120)/(912-6400)
+(638.4*8-5120)/(912*8-6400)
+plot(y~x,pch=19)#
+abline(a1)
+a=c(1,0,1,1)
+b=c(0,1,0,1)
+cov(a,b)
+cor(a,b)
+?cov
+c=c(1,1,0,0)
+d=c(1,1,1,0)
+cor(a,c)
+cor(a,d)
+cor(b,c)
+cor(b,d)
+cor(c,d)
+d1=c(1.5,0,10)
+d1
+d2=c(10.5,10,0)
+d2
+cos(d1,d2)
+cov(d1,d2)
+?cov
+cor(d1,d2)
+?cos
+？cov
+?cov
+?cor
+Q=c(1,1,0,0,0,1,0)
+Q
+a=c(5,1,8,0,3,1,0)
+Q*a
+a=c(5,3,4,4)
+u1=c(1,4,3,4)
+u2=c(4,1,4,3)
+u3=c(4,4,3,5)
+u4=c(3,5,5,3)
+cor(a,u1)
+cor(a,u2)
+cor(a,u3)
+cor(a,u4)
+library(RMeCab)
+install.packages ("RMeCab", repos = "http://rmecab.jp/R")
+library(RMeCab)
+install.packages ("RMeCab", repos = "http://rmecab.jp/R")
+library(RMeCab)
+RMeCabC("すもももももももものうち")
+library(RMeCab)
+RMeCabC("すもももももももものうち")
+library(RMeCab)
+RMeCabC("すもももももももものうち")
+library(RMeCab)
+RMeCabC("すもももももももものうち")
+library(RMeCab)
+RMeCabC("すもももももももものうち")
+RMeCabC("すももももももものうち")
+RMeCabC("今日会社休みます")
+RMeCabC("今日は会社休みます")
+library(RMeCab)
+RMeCabC("スカイツリー")
+RMeCabC("お台場")
+RMeCabC("もとから")
+RMeCabC("元カレ")
+RMeCabC("リア充")
+library(Matrix)#
+library(arules)#
+library(arulesSequences)
+RMeCabC("リア充")
+library(RMeCab)
+RMeCabC("リア充")
+soulmate<-paste("soul","mate")
+soulmate
+soulmate<-paste("soul","mate",sep='')
+soulmate
+soulmate<-paste("soul","mate",sep="")
+soulmate
+gsub(" ", "", 文字列)
+gsub(" ", "", "www")
+gsub("aaa", "", "www")
+soulmate<-paste("soul","mate","")
+soulmate
+soulmate<-paste("soul","mate",sep="")
+soulmate
+library(Matrix)#
+library(arules)#
+library(arulesSequences)
+a1=c(5,5,7,8)
+a2=c(8,5,4,5)
+cov(a1,a2)
+var(a1)
+var(a2)
+sd(a1)
+X <- matrix(c(2.25,1.5,1.5,3), 2, 2)
+eigen(x)
+eigen(X)
+library(Matrix)#
+library(arules)#
+library(arulesSequences)
+getwd()
+setwd("/Users/ryuhouketsu/Desktop/report1")
+all <- read.csv('train.csv')
+table(all)
+table(all$shares)
+plot(all$shares)
+temp = subset(all, all$shares < 53200 & all$shares > 415)
+summary(temp)
+summary(all)
+temp = subset(all, all$shares <= 7300 & all$shares >= 320)
+summary(temp)
+summary(all)
+write.csv(temp,"trainp.csv",row.names=FALSE)
+1940 * 1.5
+temp1 = subset(all, all$shares <= 5810)
+write.csv(temp1,"trainpp.csv",row.names=FALSE)
+summary(temp1)
+25000/0.15
+20000/166666.7
+25000 * 0.15
+3750 /20000
+3750 /26647
+3000/14000
